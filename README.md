@@ -63,9 +63,6 @@ The goal of this task is to create a Body Mass Index (BMI) calculator applicatio
 - CSV data storage for tracking history
 - User-friendly interface
 
-### Screenshot
-![BMI Calculator Screenshot](./BMI_Calculator/BML_Screenshot.png)
-
 ### Technologies Used
 - Python 3
 - pandas (for data handling)
