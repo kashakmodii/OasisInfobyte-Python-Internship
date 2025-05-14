@@ -44,3 +44,63 @@ The goal of this task is to build a **basic voice assistant** using Python that 
 
 ```bash
 pip install pyttsx3 speechrecognition
+```
+
+---
+
+## 🧮 Task 2: BMI Calculator
+
+A GUI-based Python application to calculate Body Mass Index (BMI), categorize results, store data over time, and visualize BMI trends using matplotlib.
+
+---
+
+## 📁 Project Structure
+
+BMI_Calculator/
+
+├── main.py # GUI application entry point
+
+├── bmi_utils.py # BMI calculation and category logic
+
+├── data_handler.py # CSV read/write functionality
+
+├── bmi_plotter.py # Matplotlib plotting for BMI trends
+
+├── BMI_Screenshot.png # Application screenshot
+
+
+---
+
+## 🚀 Features
+
+- ✅ Calculate BMI using height and weight
+- ✅ Categorize BMI (Underweight, Normal, Overweight, Obese)
+- ✅ Save BMI records to a CSV file
+- ✅ Visualize BMI trends using matplotlib
+- ✅ Simple and interactive GUI using Tkinter
+
+---
+
+## 🖼️ Screenshot
+
+![BMI Calculator](BMI_Screenshot.png)
+
+---
+
+## 📦 Requirements
+
+Make sure you have the following libraries installed:
+
+- `tkinter` (built-in with Python)
+- `matplotlib`
+- `pandas`
+
+You can install the required packages using:
+
+```bash
+pip install matplotlib pandas
+
+
+
+
+
