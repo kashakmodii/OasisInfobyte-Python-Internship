@@ -45,60 +45,61 @@ The goal of this task is to build a **basic voice assistant** using Python that 
 ```bash
 pip install pyttsx3 speechrecognition
 ```
-
 ---
 
-## 🧮 Task 2: BMI Calculator
+## Task 2: BMI Calculator
 
-A GUI-based Python application to calculate Body Mass Index (BMI), categorize results, store data over time, and visualize BMI trends using matplotlib.
+### Objective
+The goal of this task is to create a Body Mass Index (BMI) calculator application that:
+- Takes user input for weight and height
+- Calculates BMI based on the provided measurements
+- Classifies the BMI into categories (Underweight, Normal, Overweight, Obese)
+- Displays the result visually
+- Optionally saves the data for future reference
 
----
+### Features
+- Interactive BMI calculation
+- Data visualization (plotting BMI trends if multiple entries exist)
+- CSV data storage for tracking history
+- User-friendly interface
 
-## 📁 Project Structure
+### Screenshot
+![BMI Calculator Screenshot](./BMI_Calculator/BML_Screenshot.png)
 
-BMI_Calculator/
+### Technologies Used
+- Python 3
+- pandas (for data handling)
+- matplotlib (for visualization)
+- CSV module (for data storage)
 
-├── main.py # GUI application entry point
+### File Structure
+├── BML_Calculator/
 
-├── bmi_utils.py # BMI calculation and category logic
+│ ├── main.py # Main application logic
 
-├── data_handler.py # CSV read/write functionality
+│ ├── bml_utils.py # Utility functions
 
-├── bmi_plotter.py # Matplotlib plotting for BMI trends
+│ ├── bml_plotter.py # Visualization functions
 
-├── BMI_Screenshot.png # Application screenshot
+│ ├── bml_data.csv # Sample data storage
+
+│ ├── dist_bundle.py # Distribution helper
+
+│ └── BML_Screenshot.png # Application screenshot
 
 
----
+### How It Works
+1. User inputs their weight and height
+2. System calculates BMI using formula: BMI = weight(kg) / (height(m))²
+3. Result is classified and displayed
+4. Data can be saved to CSV for future reference
+5. Visualization shows BMI trends if historical data exists
 
-## 🚀 Features
+### How to Run
+1. Install dependencies:
+   ```bash
+   pip install pandas matplotlib
 
-- ✅ Calculate BMI using height and weight
-- ✅ Categorize BMI (Underweight, Normal, Overweight, Obese)
-- ✅ Save BMI records to a CSV file
-- ✅ Visualize BMI trends using matplotlib
-- ✅ Simple and interactive GUI using Tkinter
-
----
-
-## 🖼️ Screenshot
-
-![BMI Calculator](BMI_Screenshot.png)
-
----
-
-## 📦 Requirements
-
-Make sure you have the following libraries installed:
-
-- `tkinter` (built-in with Python)
-- `matplotlib`
-- `pandas`
-
-You can install the required packages using:
-
-```bash
-pip install matplotlib pandas
 
 
 
