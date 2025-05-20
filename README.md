@@ -97,6 +97,47 @@ The goal of this task is to create a Body Mass Index (BMI) calculator applicatio
    ```bash
    pip install pandas matplotlib
 
+---
+
+## 📌 Task 3: Password Generator
+
+### Objective
+
+The goal of this task is to build a **random password generator** in Python that can:
+- Allow users to choose password length
+- Allow inclusion of letters, numbers, and/or symbols
+- Generate secure, randomized passwords
+- Optionally copy the password to clipboard
+
+---
+
+### ⚙️ Technologies Used
+
+- Python 3  
+- `random` (for random character generation)  
+- `string` (for predefined character sets)  
+- `pyperclip` *(optional, for clipboard copy feature)*
+
+---
+
+### 🚀 How It Works
+
+1. The program asks the user to specify:
+   - Desired password length (between 8 and 32)
+   - Whether to include letters, numbers, and/or symbols
+2. Based on the user’s choices, a set of valid characters is created.
+3. A random password is generated using the selected character set.
+4. The password is displayed and optionally copied to the clipboard if `pyperclip` is installed.
+
+---
+
+### ▶️ How to Run
+
+1. (Optional) Install the clipboard support library:
+
+```bash
+pip install pyperclip
+
 
 
 
