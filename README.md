@@ -137,6 +137,31 @@ The goal of this task is to build a **random password generator** in Python that
 
 ```bash
 pip install pyperclip
+```
+
+---
+
+## Task 4:Simple Weather App in Python
+
+This is a basic terminal-based weather application built with Python. It uses the OpenWeatherMap API to fetch current weather data for any city.
+
+## ✅ Features
+
+- Get temperature, weather condition, humidity, and wind speed
+- Simple CLI-based input and output
+- Built-in OpenWeatherMap API key (for demo use)
+
+## 🚀 How to Run
+
+### 1. Clone the repository or download the files.
+
+### 2. Install the required package:
+
+```bash
+pip install requests
+```
+
+
 
 
 
