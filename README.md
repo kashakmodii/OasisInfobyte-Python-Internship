@@ -141,7 +141,7 @@ pip install pyperclip
 
 ---
 
-## Task 4:Simple Weather App in Python
+## 📌Task 4:Simple Weather App in Python
 
 This is a basic terminal-based weather application built with Python. It uses the OpenWeatherMap API to fetch current weather data for any city.
 
