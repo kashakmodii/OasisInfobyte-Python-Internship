@@ -203,12 +203,7 @@ The objective of this task is to build a **simple real-time chat application** i
 
 ---
 
-Install the required package:
 
-```bash
-pip install socket
-pip install threading
-```
 
 
 
