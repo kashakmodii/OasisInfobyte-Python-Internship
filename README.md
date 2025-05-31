@@ -161,6 +161,55 @@ This is a basic terminal-based weather application built with Python. It uses th
 pip install requests
 ```
 
+---
+
+## 📌 Task 5: Chat Application
+
+### ✅ Objective
+
+The objective of this task is to build a **simple real-time chat application** in Python using the **client-server architecture**. The app allows two users to exchange text messages through the command line.
+
+---
+
+### ⚙️ Technologies Used
+
+- Python 3  
+- `socket` (for network communication)  
+- `threading` (for handling send/receive concurrently)  
+
+> 💡 All the libraries used are part of Python's standard library, so no external installation is needed.
+
+---
+
+### 🚀 How It Works
+
+1. The application runs in either **server mode** or **client mode**.
+2. The server starts and listens for a client to connect.
+3. The client connects using the server's IP address and port.
+4. Once connected, both users can chat by sending and receiving messages in real-time.
+5. Typing `exit` ends the chat session.
+
+---
+
+### ▶️ How to Run
+
+1. Clone the repository or download the files.
+
+2. Open two terminal windows or use two devices:
+   - Run one as **Server**
+   - Run the other as **Client**
+
+3. Follow the prompts to start chatting.
+
+---
+
+Install the required package:
+
+```bash
+pip install socket
+pip install threading
+```
+
 
 
 
