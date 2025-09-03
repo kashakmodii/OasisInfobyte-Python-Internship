@@ -1,12 +1,14 @@
-# 🌟 Python Programming Internship at Oasis Infobyte
+# Python Programming Internship 
 
-This repository contains all the tasks completed during my internship at **Oasis Infobyte** under the domain of **Python Programming**. The internship provided hands-on experience in developing Python-based applications and solving real-world problems through code.
+This repository contains all the tasks completed during my internship under the domain of **Python Programming**. The internship provided hands-on experience in developing Python-based applications and solving real-world problems through code.
 
 ---
 
-## 📌 Task 1: Voice Assistant
+## Task 1: Voice Assistant
 
-### ✅ Objective
+---
+
+### Objective
 
 The goal of this task is to build a **basic voice assistant** using Python that can:
 - Take voice commands from the user
@@ -29,7 +31,7 @@ The goal of this task is to build a **basic voice assistant** using Python that 
 
 ---
 
-### 🚀 How It Works
+###  How It Works
 
 1. The assistant greets the user based on the time of the day.
 2. Listens for voice input.
@@ -38,7 +40,7 @@ The goal of this task is to build a **basic voice assistant** using Python that 
 
 ---
 
-### ▶️ How to Run
+### How to Run
 
 1. Install the dependencies:
 
@@ -99,7 +101,7 @@ The goal of this task is to create a Body Mass Index (BMI) calculator applicatio
 
 ---
 
-## 📌 Task 3: Password Generator
+## Task 3: Password Generator
 
 ### Objective
 
@@ -111,7 +113,7 @@ The goal of this task is to build a **random password generator** in Python that
 
 ---
 
-### ⚙️ Technologies Used
+### Technologies Used
 
 - Python 3  
 - `random` (for random character generation)  
@@ -120,7 +122,7 @@ The goal of this task is to build a **random password generator** in Python that
 
 ---
 
-### 🚀 How It Works
+### How It Works
 
 1. The program asks the user to specify:
    - Desired password length (between 8 and 32)
@@ -131,7 +133,7 @@ The goal of this task is to build a **random password generator** in Python that
 
 ---
 
-### ▶️ How to Run
+### ▶How to Run
 
 1. (Optional) Install the clipboard support library:
 
@@ -141,17 +143,17 @@ pip install pyperclip
 
 ---
 
-## 📌Task 4:Simple Weather App in Python
+## Task 4:Simple Weather App in Python
 
 This is a basic terminal-based weather application built with Python. It uses the OpenWeatherMap API to fetch current weather data for any city.
 
-## ✅ Features
+## Features
 
 - Get temperature, weather condition, humidity, and wind speed
 - Simple CLI-based input and output
 - Built-in OpenWeatherMap API key (for demo use)
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Clone the repository or download the files.
 
@@ -163,25 +165,25 @@ pip install requests
 
 ---
 
-## 📌 Task 5: Chat Application
+##  Task 5: Chat Application
 
-### ✅ Objective
+###  Objective
 
 The objective of this task is to build a **simple real-time chat application** in Python using the **client-server architecture**. The app allows two users to exchange text messages through the command line.
 
 ---
 
-### ⚙️ Technologies Used
+###  Technologies Used
 
 - Python 3  
 - `socket` (for network communication)  
 - `threading` (for handling send/receive concurrently)  
 
-> 💡 All the libraries used are part of Python's standard library, so no external installation is needed.
+>  All the libraries used are part of Python's standard library, so no external installation is needed.
 
 ---
 
-### 🚀 How It Works
+###  How It Works
 
 1. The application runs in either **server mode** or **client mode**.
 2. The server starts and listens for a client to connect.
@@ -191,7 +193,7 @@ The objective of this task is to build a **simple real-time chat application** i
 
 ---
 
-### ▶️ How to Run
+###  How to Run
 
 1. Clone the repository or download the files.
 
