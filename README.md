@@ -20,7 +20,7 @@ The goal of this task is to build a **basic voice assistant** using Python that 
 
 ---
 
-### ⚙️ Technologies Used
+### Technologies Used
 
 - Python 3
 - `speech_recognition`
@@ -50,6 +50,8 @@ pip install pyttsx3 speechrecognition
 ---
 
 ## Task 2: BMI Calculator
+
+---
 
 ### Objective
 The goal of this task is to create a Body Mass Index (BMI) calculator application that:
@@ -103,6 +105,8 @@ The goal of this task is to create a Body Mass Index (BMI) calculator applicatio
 
 ## Task 3: Password Generator
 
+---
+
 ### Objective
 
 The goal of this task is to build a **random password generator** in Python that can:
@@ -133,7 +137,7 @@ The goal of this task is to build a **random password generator** in Python that
 
 ---
 
-### ▶How to Run
+### How to Run
 
 1. (Optional) Install the clipboard support library:
 
@@ -144,6 +148,8 @@ pip install pyperclip
 ---
 
 ## Task 4:Simple Weather App in Python
+
+---
 
 This is a basic terminal-based weather application built with Python. It uses the OpenWeatherMap API to fetch current weather data for any city.
 
